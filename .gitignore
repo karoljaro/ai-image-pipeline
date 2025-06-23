@@ -134,3 +134,58 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Lock files (let users choose their package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+*.lockb
+
+# AI/ML Models (jeśli nie chcesz ich w repo)
+models/*.bin
+models/*.pb
+models/*.h5
+models/*.onnx
+models/*.tflite
+*.model
+
+# Large test images and processing results
+test/fixtures/large/
+test/output/
+examples/processed/
+tmp/
+temp/
+
+# Build outputs specific to your library
+lib/
+dist/
+build/
+esm/
+cjs/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Development and testing
+.nyc_output/
+coverage/
+.coverage/
+test-results/
+playwright-report/
+
+# TensorFlow.js cache (jeśli będzie używane)
+.tfjs/
