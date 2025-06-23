@@ -1,0 +1,50 @@
+AI Image Pipeline License
+Copyright (c) 2025 karoljaro
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use
+the Software in their own projects, including commercial applications, 
+subject to the following conditions:
+
+PERMITTED USES:
+- Use in personal and commercial projects
+- Integration into commercial applications
+- Internal business use
+- Educational and research purposes
+- Modification for integration purposes
+- Contributing back to the project
+
+PROHIBITED USES:
+- Redistributing this Software as a standalone product
+- Selling, licensing, or sublicensing this Software as a separate product
+- Rebranding this Software as your own product
+- Creating competing libraries based on this code
+- Removing attribution and claiming authorship
+- Distributing modified versions as separate packages
+
+CONDITIONS:
+1. The above copyright notice and this permission notice shall be included in
+   all copies or substantial portions of the Software.
+
+2. Attribution to karoljaro must be maintained in any application that uses
+   this Software (e.g., in about pages, documentation, or credits).
+
+3. You may NOT redistribute this Software as a standalone product or create
+   derivative packages for distribution.
+
+4. Commercial use is permitted ONLY when this Software is integrated into
+   larger applications, not sold as a standalone product.
+
+5. Any modifications must be clearly marked and cannot be distributed as
+   separate competing packages.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This license allows commercial integration but prohibits redistribution as a
+competing product. For questions, contact: karoljaro@github.com
