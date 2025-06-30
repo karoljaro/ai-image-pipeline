@@ -1,0 +1,69 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "lib": [
+            "ES2022"
+        ],
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "removeComments": false,
+        "noEmitOnError": true,
+        "isolatedModules": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "baseUrl": "./src",
+        "paths": {
+            "@/*": [
+                "*"
+            ],
+            "@domain/*": [
+                "domain/*"
+            ],
+            "@domain/entities/*": [
+                "domain/entities/*"
+            ],
+            "@domain/value-objects/*": [
+                "domain/value-objects/*"
+            ],
+            "@domain/validation/*": [
+                "domain/validation/*"
+            ],
+            "@application/*": [
+                "application/*"
+            ],
+            "@infrastructure/*": [
+                "infrastructure/*"
+            ],
+            "@presentation/*": [
+                "presentation/*"
+            ],
+            "@shared/*": [
+                "shared/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "**/*.test.ts",
+        "**/__tests__/**"
+    ]
+}
